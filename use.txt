@@ -1,0 +1,5 @@
+>g++ -fPIC -shared -o array_lib.dll array_lib.cpp
+
+>g++ -shared -o matrix_lib.dll matrix_lib.cpp
+
+>g++ main.cpp -o main.exe
